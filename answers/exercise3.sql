@@ -1,0 +1,3 @@
+SELECT *
+FROM Students
+WHERE SUBSTR(City, 1, 1) BETWEEN 'a' AND 'f';
